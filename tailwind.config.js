@@ -11,6 +11,14 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'custom-shape': "url('/closedAcordeon.svg')",
+        'second-custom-shape': "url('/openAcordeon.svg')",
+      },
+      screens: {
+        hd: '1920px',
+      },
+      
     },
   },
   plugins: [],

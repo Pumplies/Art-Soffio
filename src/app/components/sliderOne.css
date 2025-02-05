@@ -1,0 +1,14 @@
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: calc(100% - 1rem); /* Учитываем gap */
+  flex-shrink: 0;
+  margin-right: -1rem; /* Отрицательный margin для выхода за границы */
+  height: 100vh; /* Увеличение высоты слайда */
+}
+
+
