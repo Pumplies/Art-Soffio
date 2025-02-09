@@ -3,7 +3,7 @@ import FormButton from "./ui/formButton";
 
 export default function Catalog() {
   return (
-    <article className="mt-[52px] md:mt-[100px] hd:mt-[180px] w-screen h-[280px] md:h-[600px] hd:h-[834px] bg-gradient-to-r from-[#94D7E8] md:rounded-[20px] hd:rounded-[50px] to-[#E2E2E24D] translate-x-[-31px] md:translate-x-[-60px] hd:translate-x-[-138px] flex flex-col justify-between pb-[19px] md:pb-[48px] hd:pb-[70px]">
+    <article className="mt-[52px] md:mt-[100px] hd:mt-[180px] w-screen h-[280px] md:h-[600px] hd:h-[834px] bg-gradient-to-r from-[#94D7E8] md:rounded-[20px] hd:rounded-[50px] to-[#E2E2E24D] translate-x-[-31px] md:translate-x-[-60px] hd:translate-x-[-138px] flex flex-col justify-between pb-[19px] md:pb-[48px] hd:pb-[70px] ">
       <section className="w-full pt-[40px] hd:pt-0 pl-[31px] md:px-[70px] xl:px-[100px]  hd:px-[138px] flex gap-[10px] md:gap-[50px] xl:gap-[180px] hd:gap-[205px]">
         <div className="relative w-[133px] md:w-[300px] xl:w-[380px] hd:w-[559px] md:top-[10px] xl:top-[-120px] hd:top-[-111px]">
           <Image

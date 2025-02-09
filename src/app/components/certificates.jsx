@@ -10,7 +10,7 @@ export default function Certificates() {
   return (
     <article
       id="certificates"
-      className="w-full pl-[19px] md:pl-[60px] hd:pl-[81px] pt-[35px] hd:pt-[83px] pb-[47px] hd:pb-[100px] flex justify-between bg-gradient-to-r from-[#F8B5C3] rounded-[17px] md:rounded-[50px] to-[#E2E2E24D]"
+      className="w-full pl-[19px] md:pl-[60px] hd:pl-[81px] pt-[35px] hd:pt-[83px] pb-[47px] hd:pb-[100px] flex justify-between bg-gradient-to-r from-[#F8B5C3] rounded-[17px] md:rounded-[50px] to-[#E2E2E24D] pr-[30px] md:pr-[60px] hd:pr-[138px]"
     >
       <section className="flex flex-col w-[70%] md:w-[50%] hd:w-[70%] relative hd:pr-[130px]">
         <h3 className="text-[#060606] md:text-[#597E72] text-[38px] md:text-[65px] hd:text-[82px] font-[600]">

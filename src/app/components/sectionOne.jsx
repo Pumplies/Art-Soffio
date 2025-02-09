@@ -33,7 +33,7 @@ export default function SectionOne({ toggleForm }) {
             ></Image>
 
             <Image
-              src="Rectangle.svg"
+              src="/Rectangle.svg"
               alt="Фон"
               width={1221}
               height={326}
@@ -41,7 +41,7 @@ export default function SectionOne({ toggleForm }) {
             />
             <div className="absolute md:left-[260px] md:top-[640px] xl:left-[350px] xl:top-[680px] hd:left-[480px] hd:top-[974px] md:max-w-[280px] xl:max-w-[350px] hd:max-w-[450px]">
               <h3 className="text-[25px] hd:text-wrap hd:text-[36px] leading-[30px] hd:leading-[42px] font-[700]">
-                "Станьте нашим партнером!"
+                {'"Станьте нашим партнером!"'}
               </h3>
               <p className="text-[19px] hd:text-[26px] hd:leading-[39px] font-[400] italic">
                 Гарантируем качество и лучшие цены. Продукция напрямую от

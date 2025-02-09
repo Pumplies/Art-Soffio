@@ -59,7 +59,7 @@ export default function Reviews() {
     handleResize(); // Вызов при монтировании
 
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [cards.length]);
 
   const handleArrowClick = (direction) => {
     const maxOffset = -(cardWidth * (cards.length - 1)); // Максимальное смещение
@@ -96,7 +96,7 @@ export default function Reviews() {
   };
 
   return (
-    <article id="reviews" className="w-full hd:px-[20px] mt-[45px] md:mt-[100px] hd:mt-[143px] mb-[52px] md:mb-[120px] hd:mb-[165px]">
+    <article id="reviews" className="w-full hd:px-[20px] mt-[45px] md:mt-[100px] hd:mt-[143px] mb-[52px] md:mb-[120px] hd:mb-[165px] pr-[30px] md:pr-[60px] hd:pr-[138px]">
       <h3 className="text-[38px] md:text-[65px] hd:text-[82px] font-[600] text-end">
         <span className="text-[#F55E79]">Отзывы</span> наших клиентов
       </h3>

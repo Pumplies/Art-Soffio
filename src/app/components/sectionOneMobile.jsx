@@ -31,7 +31,7 @@ export default function SectionOneMobile({ toggleForm }) {
         <div className="pl-[190px] pr-[30px] flex flex-col relative">
           <div className=" flex flex-col gap-[10px]">
             <h3 className="text-[20px] leading-[20px] font-[700] text-[#060606]">
-              "Станьте нашим партнером!"
+              {'"Станьте нашим партнером!"'}
             </h3>
             <p className="text-[14px] leading-[14px] italic text-[#060606]">
               Гарантируем качество и лучшие цены. Продукция напрямую от

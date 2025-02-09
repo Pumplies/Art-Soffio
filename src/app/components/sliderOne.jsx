@@ -23,13 +23,14 @@ export default function SliderOne() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    <FirstSlide isMobile={isMobile} />,
-    <SecondSlide isMobile={isMobile} />,
-    <ThirdSlide isMobile={isMobile} />,
-    <FoursSlide isMobile={isMobile} />,
-    <FiveSlide isMobile={isMobile} />,
-    <SixSlide isMobile={isMobile} />,
+    { id: 1, component: <FirstSlide isMobile={isMobile} /> },
+    { id: 2, component: <SecondSlide isMobile={isMobile} /> },
+    { id: 3, component: <ThirdSlide isMobile={isMobile} /> },
+    { id: 4, component: <FoursSlide isMobile={isMobile} /> },
+    { id: 5, component: <FiveSlide isMobile={isMobile} /> },
+    { id: 6, component: <SixSlide isMobile={isMobile} /> },
   ];
+  
   const totalSlides = slides.length;
   const gap = -5; // Укажите значение gap в пикселях
 
@@ -71,16 +72,16 @@ export default function SliderOne() {
       onTouchEnd={handleTouchEnd}
     >
       <div
-        className="slides flex transition-transform duration-500 gap-[10px]"
+        className="slides flex transition-transform duration-500 gap-[5px]"
         style={{
           transform: `translateX(-${
             currentSlide * (100 + gap / totalSlides)
           }%)`,
         }}
       >
-        {slides.map((slide, index) => (
-          <div key={index} className="slide w-full flex-shrink-0">
-            {slide}
+        {slides.map((slide) => (
+          <div key={slide.id} className="slide w-full flex-shrink-0">
+            {slide.component}
           </div>
         ))}
       </div>

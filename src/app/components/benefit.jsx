@@ -9,7 +9,7 @@ export default function Benefit() {
   const { toggleForm } = useContext(FormContext);
 
   return (
-    <section className="pt-[73px] md:pt-[150px] hd:pt-[195px] pb-[140px] hd:pb-[208px]">
+    <section className="pt-[73px] md:pt-[150px] hd:pt-[195px] pb-[140px] hd:pb-[208px] pr-[30px] md:pr-[60px] hd:pr-[138px]">
       <h3 className="text-end hd:text-[text-start] text-[38px] md:text-[65px] hd:text-[82px] font-[600] mb-[60px] leading-[40px] md:leading-[67px] hd:leading-[85px]">
         Почему <span className="text-[#F55E79]">выгодно</span> сотрудничать{" "}
         <br /> с нами?

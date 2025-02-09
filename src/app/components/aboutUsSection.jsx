@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function AboutUsSection() {
   return (
-    <article id="about" className="flex flex-col items-center relative">
+    <article id="about" className="flex flex-col items-center relative pr-[30px] md:pr-[60px] hd:pr-[138px]">
       <Image
         src={"/bgLogo.svg"}
         alt="Logo"
