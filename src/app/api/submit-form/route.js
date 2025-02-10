@@ -5,8 +5,8 @@ export async function POST(req) {
     const { name, lastName, phone, email } = await req.json();
 
     // 1. Отправка данных в Telegram
-    const telegramToken = "7697839724:AAG2JGMeQEw8hmtDsdpwK0D1bLhKZ7EBvaE";
-    const chatId = "-1002322209852"; // Получите ID чата через Bot API
+    const telegramToken = `${process.env.TELEGRAM_TOKEN}`; // Получите токен через BotFather
+    const chatId = `${process.env.CHAT_ID}` // Получите ID чата через Bot API
     const message = `
       Новая заявка:
       Имя: ${name || "Не указано"}
@@ -37,8 +37,8 @@ export async function POST(req) {
     });
 
     await transporter.sendMail({
-      from: "artsoffiozaavki@gmail.com",
-      to: "maxmax20051120@gmail.com", // Получатель
+      from: `${process.env.GMAIL_USER}`, // Отправитель
+      to: `${process.env.RECIPIENT_EMAIL}`, // Получатель
       subject: "Новая заявка",
       text: message,
     });
