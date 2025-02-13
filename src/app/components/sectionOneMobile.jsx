@@ -26,6 +26,7 @@ export default function SectionOneMobile({ toggleForm }) {
             width={357}
             height={359}
             className="absolute left-[-80px] bottom-0"
+            priority
           ></Image>
         </div>
         <div className="pl-[190px] pr-[30px] flex flex-col relative">
