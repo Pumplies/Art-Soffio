@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: process.env.NODE_ENV === "production", // Включает Strict Mode только в продакшене
+  reactStrictMode: false,
   experimental: {
     turbo: {
-      loaders: {}, // Опционально, если хочешь тестировать Turbopack
+      rules: {}, // Опционально, если хочешь тестировать Turbopack
     },
   },
   images: {
-    formats: ["image/avif", "image/webp"], // Оптимизация изображений
+    formats: ["image/webp"], // Оптимизация изображений
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
