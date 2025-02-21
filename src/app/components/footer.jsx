@@ -6,8 +6,8 @@ export default function Footer() {
       id="contacts"
       className="border-t-2 px-[20px] md:px-[50px] xl:px-[100px] hd:px-[138px] pt-[40px] pb-[70px] bg-[#F3FBFF]  overflow-x-hidden"
     >
-      <div className="flex flex-col md:flex-row justify-between ">
-        <section className="items-center md:items-start text-center md:text-start">
+      <div className="flex flex-col lg:flex-row justify-between ">
+        <section className="items-center lg:items-start text-center lg:text-start">
           <button
             className={`p-[1px] md:p-[2px] bg-[#B90245] rounded-full text-[18px] md:text-[22px] hd:text-[25px] font-[600] relative overflow-hidden`}
           >
@@ -28,13 +28,13 @@ export default function Footer() {
             alt="Logo"
             width={340}
             height={195}
-            className="w-[130px] h-[100px] md:w-[210px] md:h-[160px] hd:w-[340px] hd:h-[195px]"
+            className="w-[130px] h-[100px] md:w-[210px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
           ></Image>
         </section>
-        <section className="mt-[28px] md:mt-0 flex flex-col gap-[65px] items-center xl:items-start text-center xl:text-start">
+        <section className="mt-[28px] lg:mt-0 flex flex-col gap-[65px] items-center xl:items-start text-center xl:text-start">
           <div className="order-2 md:order-1">
             <p className="font-[600] text-[24px] ">МЫ В СОЦСЕТЯХ</p>
-            <div className="flex gap-[28px] mt-[15px] md:mt-[42px]">
+            <div className="flex gap-[28px] mt-[15px] lg:mt-[42px]">
               <a
                 href="https://www.instagram.com/artsoffio?igsh=MWc2b3lkZWNlcGs5dw=="
                 target="_blank"
@@ -76,7 +76,7 @@ export default function Footer() {
           <div className="order-1 hd:order-2 ">
             <hr className="visible md:hidden w-screen mb-[18px]" />
             <p className="font-[600] text-[24px]">КОНТАКТЫ</p>
-            <div className="flex mb-[7px] md:mb-0 gap-[30px] mt-[42px] pl-[45px] md:px-0">
+            <div className="flex mb-[7px] lg:mb-0 gap-[30px] mt-[15px] lg:mt-[42px] pl-[45px] md:px-0">
               <Image
                 src={"/mail.svg"}
                 alt="mail"
@@ -103,7 +103,7 @@ export default function Footer() {
           </div>
         </section>
       </div>
-      <div className="flex flex-col md:flex-row justify-end text-[14px] md:text-[20px] md:gap-[90px] mt-[100px] text-center">
+      <div className="flex flex-col lg:flex-row justify-end text-[14px] md:text-[20px] md:gap-[90px] mt-[100px] text-center">
         <button>Политика конфиденциальности</button>
         <span>© 2024 Artsoffio. Все права защищены </span>
       </div>

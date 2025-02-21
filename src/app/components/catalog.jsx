@@ -15,7 +15,7 @@ export default function Catalog() {
           ></Image>
         </div>
         <div className=" flex flex-col justify-between pt-[14px] hd:pt-[76px] relative">
-          <h2 className="text-[25px] md:text-[65px] hd:text-[82px] font-[600] leading-[28px] md:leading-[68px] hd:leading-[85px] mb-[20px] md:mb-[50px] xl:mb-[90px] hd:mb-[112px]">
+          <h2 className="text-[25px] md:text-[40px] lg:text-[65px] hd:text-[82px] font-[600] leading-[28px] md:leading-[43px] lg:leading-[68px] hd:leading-[85px] mb-[20px] md:mb-[50px] lg:mb-[40px] xl:mb-[90px] hd:mb-[112px]">
             Для бесплатного <br /> получения <br /> каталога
           </h2>
           <FormButton text={"Скачать"} />
@@ -24,7 +24,7 @@ export default function Catalog() {
             alt="arrowDown"
             width={60}
             height={144}
-            className="absolute top-[50px] left-[140px] md:top-[200px] md:left-[380px] xl:top-[150px] xl:left-[320px] hd:top-[260px] hd:left-[380px] w-[29px] h-[52px] md:w-[40px] md:h-[84px] hd:w-[60px] hd:h-[144px]"
+            className="absolute top-[50px] left-[140px] md:top-[120px] md:left-[220px] lg:top-[150px] lg:left-[380px] xl:top-[150px] xl:left-[320px] hd:top-[260px] hd:left-[380px] w-[29px] h-[52px] md:w-[40px] md:h-[84px] hd:w-[60px] hd:h-[144px]"
           ></Image>
         </div>
       </section>

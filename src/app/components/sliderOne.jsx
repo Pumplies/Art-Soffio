@@ -14,7 +14,7 @@ export default function SliderOne() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 1024);
     };
     window.addEventListener("resize", handleResize);
     handleResize(); // Вызов при монтировании
@@ -66,13 +66,13 @@ export default function SliderOne() {
 
   return (
     <div
-      className="relative overflow-hidden w-full h-[650px] md:h-[660px] xl:h-[700px] hd:min-h-[1100px] hd:max-h-[1400px]  bg-[#F3FBFF]"
+      className="relative overflow-hidden w-full h-[650px] lg:h-[660px] xl:h-[700px] hd:min-h-[1100px] hd:max-h-[1400px]  bg-[#F3FBFF]"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
       <div
-        className="slides flex transition-transform duration-500 gap-[5px]"
+        className="slides flex transition-transform duration-500 gap-[10px]"
         style={{
           transform: `translateX(-${
             currentSlide * (100 + gap / totalSlides)

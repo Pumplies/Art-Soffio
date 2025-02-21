@@ -5,7 +5,7 @@ import Cards from "./ui/cards";
 
 export default function SliderCards() {
   return (
-    <div className="w-[220px] h-[238px] hd:w-[300px] hd:h-[400px] absolute top-[120px] md:top-[180px] md:left-[200px] hd:top-[200px] right-[30px] hd:left-[100px] z-40">
+    <div className="w-[220px] h-[238px] hd:w-[300px] hd:h-[400px] absolute top-[120px] md:right-[150px] lg:top-[180px] lg:left-[200px] hd:top-[200px] right-[30px] hd:left-[100px] z-40">
       <motion.div
         className="absolute top-0 left-0"
         animate={{ y: [0, -10, 0] }}

@@ -10,6 +10,7 @@ export default function AcordeonCard({ title, text }) {
   };
   return (
     <div
+      onClick={toggleCard}
       className={`transform transition-all duration-300 relative w-auto h-[255px] pr-[65px] hd:pr-[90px] ${
         isOpen
           ? "h-[320px] hd:h-[442px] text-white"
@@ -21,11 +22,11 @@ export default function AcordeonCard({ title, text }) {
           isOpen ? "bg-[#597E72]" : "bg-[#DEE1E8]"
         }`}
       >
-        <h3 className=" leading-[24px] md:leading-[26px] xl:leading-[28px] hd:leading-[34px] text-[24px] md:text-[26px] xl:text-[28px] hd:text-[34px] font-[600] mb-[8px] hd:mb-[28px] ">
+        <h3 className=" leading-[24px] md:leading-[26px] xl:leading-[28px] hd:leading-[34px] text-[24px] md:text-[26px] xl:text-[28px] hd:text-[34px] font-[600] mb-[8px] md:mb-[20px] lg:mb-[8px] hd:mb-[28px] ">
           {title}
         </h3>
         <p
-          className={`pr-[35px] hd:pr-0  leading-[22px] md:leading-[26px] xl:leading-[28px] hd:leading-[35px] text-[16px] md:text-[18px] hd:text-[20px] font-[500]  ${
+          className={`pr-[35px] md:pr-[150px] lg:pr-[35px] hd:pr-0  leading-[22px] md:leading-[30px] lg:leading-[26px] xl:leading-[28px] hd:leading-[35px] text-[16px] md:text-[20px] lg:text-[18px] xl:text-[18px] hd:text-[20px] font-[500]  ${
             isOpen ? "" : "hidden"
           }`}
         >
@@ -52,7 +53,10 @@ export default function AcordeonCard({ title, text }) {
         style={{ borderRadius: "40px 0 0 0" }}
       >
         <button
-          onClick={toggleCard}
+          onClick={(event) => {
+            event.stopPropagation(); // Останавливает всплытие
+            toggleCard();
+          }}
           className={`w-[51px] h-[51px] hd:w-[70px] hd:h-[70px] flex items-center justify-center  rounded-full transition-all duration-300 ${
             isOpen ? "bg-[#597E72]" : "bg-[#DEE1E8]"
           }`}
@@ -63,7 +67,9 @@ export default function AcordeonCard({ title, text }) {
             width={30}
             height={30}
             className={`transform transition-transform duration-300 ${
-              isOpen ? "-rotate-90 hd:rotate-180 filter brightness-0 invert" : "rotate-90 hd:rotate-0"
+              isOpen
+                ? "-rotate-90 hd:rotate-180 filter brightness-0 invert"
+                : "rotate-90 hd:rotate-0"
             }`}
           ></Image>
         </button>

@@ -26,7 +26,7 @@ export default function AboutUsSection() {
         </p>
       </section>
       <hr className="hidden md:block w-[40%] bg-[#597E72] md:h-[2.5px] hd:h-[3px] my-[71px]" />
-      <section className="mt-[26px] hd:mt-[0px] flex flex-col md:flex-row justify-between gap-[34px] md:gap-[120px] hd:gap-[146px] items-center">
+      <section className="mt-[26px] hd:mt-[0px] flex flex-col lg:flex-row justify-between gap-[34px] lg:gap-[120px] hd:gap-[146px] items-center">
         <div className="text-center relative z-0">
         <Image src={"/leftRectangle.svg"} alt="Rectangle" width={60} height={35} className="absolute top-[7px] left-[7px] md:top-[13px] md:left-[-1px] hd:top-[20px] hd:left-[-10px] w-[37px] h-[22px] md:w-[55px] md:h-[32px] hd:w-[60px] hd:h-[35px]" style={{ zIndex: -1 }}></Image>
           <h4 className="text-[40px] md:text-[65px] hd:text-[82px] font-[600] text-nowrap">1500+</h4>

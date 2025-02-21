@@ -20,7 +20,7 @@ import Certificates from "./components/certificates";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden pl-[30px] md:pl-[60px] hd:pl-[138px] pt-[50px] hd:pt-[200px] max-w-screen bg-[#F3FBFF] pb-[140px]">
+    <div className="overflow-hidden pl-[30px] md:pl-[40px] lg:pl-[60px] hd:pl-[138px] pt-[50px] hd:pt-[200px] max-w-screen bg-[#F3FBFF] pb-[140px]">
       <AboutUsSection/>
       <Benefit/>
       <OurProducts cards={cards}/>

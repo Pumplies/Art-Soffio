@@ -14,7 +14,7 @@ export default function Benefit() {
         Почему <span className="text-[#F55E79]">выгодно</span> сотрудничать{" "}
         <br /> с нами?
       </h3>
-      <article className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[45px]">
+      <article className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[45px]">
         <AcordeonCard
           title="Гибкие условия"
           text="Мы предлагаем индивидуальный подход к каждому партнеру, адаптируя условия сотрудничества в зависимости от ваших потребностей. Это позволяет находить наиболее удобные решения для бизнеса любого масштаба."
