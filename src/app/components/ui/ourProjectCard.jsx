@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 export default function OurProjectCard({ image, title, text }) {
@@ -9,6 +10,7 @@ export default function OurProjectCard({ image, title, text }) {
           alt="Product"
           layout="fill"
           objectFit="contain" 
+          onDragStart={(e) => e.preventDefault()}
         />
       </div>
       <div className="flex flex-col text-center">

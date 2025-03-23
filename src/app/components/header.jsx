@@ -34,7 +34,7 @@ export default function Header() {
           <span className="block w-6 h-0.5 bg-black mb-1"></span>
           <span className="block w-6 h-0.5 bg-black"></span>
         </button>
-        <Image src="/logo.svg" alt="Art Soffio Logo" width={370} height={70} priority className="w-[188px] h-[35px] mx-auto md:w-[280px] md:h-[53px] hd:w-[370px] hd:h-[70px] md:mx-0"></Image>
+        <Image src="/logo.svg" alt="Art Soffio Logo" width={370} height={70}  onDragStart={(e) => e.preventDefault()} priority className="w-[188px] h-[35px] mx-auto md:w-[280px] md:h-[53px] hd:w-[370px] hd:h-[70px] md:mx-0"></Image>
         <nav className={`hidden ${isNarrowScreen ? "hidden" : "md:flex"}`}>
           <ul className="flex md:gap-[2vw] hd:gap-[3vw] md:text-[20px] text-[25px]">
             <li className="cursor-pointer" onClick={() => scrollToSection('about')}>О нас</li>

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import FormButton from "./ui/formButton";
 import SliderOne from "./sliderOne";
@@ -30,6 +31,7 @@ export default function SectionOne({ toggleForm }) {
               width={604}
               height={584}
               priority
+              onDragStart={(e) => e.preventDefault()}
               className="absolute z-10 left-[-30px] hd:left-0 md:top-[480px] xl:top-[400px] hd:top-[655px] md:w-[384px] md:h-[364px] xl:w-[504px] xl:h-[484px] hd:w-[604px] hd:h-[584px]"
             ></Image>
 
@@ -39,6 +41,7 @@ export default function SectionOne({ toggleForm }) {
               width={1221}
               height={326}
               priority
+              onDragStart={(e) => e.preventDefault()}
               className="absolute md:left-[-250px] xl:left-[-110px] hd:left-[-130px] md:top-[604px] hd:top-[913px] md:w-[900px] md:h-[240px] hd:w-[1221px] hd:h-[326px]"
             />
             <div className="absolute md:left-[260px] md:top-[640px] xl:left-[350px] xl:top-[680px] hd:left-[480px] hd:top-[974px] md:max-w-[280px] xl:max-w-[350px] hd:max-w-[450px]">

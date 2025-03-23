@@ -118,6 +118,7 @@ export default function OurProducts({ cards }) {
               alt="arrowLeft"
               width={14}
               height={31}
+              onDragStart={(e) => e.preventDefault()}
               className={`group-hover:invert group-hover:brightness-0 group-hover:filter ${
                 !canScrollLeft ? "group-hover:brightness-100" : ""
               }`}
@@ -137,6 +138,7 @@ export default function OurProducts({ cards }) {
               alt="arrowRight"
               width={14}
               height={31}
+              onDragStart={(e) => e.preventDefault()}
               className={`group-hover:invert group-hover:brightness-0 group-hover:filter ${
                 !canScrollRight ? "group-hover:brightness-100" : ""
               }`}

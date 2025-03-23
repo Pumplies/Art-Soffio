@@ -23,6 +23,7 @@ export default function Certificates() {
           alt="arrow"
           width={147}
           height={98}
+          onDragStart={(e) => e.preventDefault()}
           className="hidden xl:block absolute md:left-[500px] md:top-[40px] hd:left-[620px] hd:top-[70px] md:w-[120px] md:h-[70px] hd:w-[147px] hd:h-[98px]"
         ></Image>
         <p className="pr-[60px] md:pr-0 lg:pr-[60px] hd:pr-0 font-[500] text-[12px] md:text-[25px] hd:text-[34px] leading-[16px] md:leading-[35px] hd:leading-[45px] mb-[46px] hd:mb-[87px] mt-[10px] hd:mt-[42px]">
@@ -39,6 +40,7 @@ export default function Certificates() {
           alt="certificate"
           width={355}
           height={487}
+          onDragStart={(e) => e.preventDefault()}
           className="absolute top-[60px] left-[-60px] md:left-[10px] md:top-[90px] lg:left-[40px] lg:top-[70px] xl:top-[-70px] hd:left-0 hd:top-[-160px] md:w-[205px] md:h-[290px] lg:w-[255px] lg:h-[350px] hd:w-[355px] hd:h-[487px]"
         ></Image>
         <Image
@@ -46,6 +48,7 @@ export default function Certificates() {
           alt="certificate"
           width={355}
           height={487}
+          onDragStart={(e) => e.preventDefault()}
           className="absolute left-[-20px] top-[65px] md:left-[100px] md:top-[100px] lg:left-[150px] lg:top-[70px] xl:top-[-60px] hd:top-[-170px] hd:left-[156px] rotate-[22deg] md:w-[205px] md:h-[290px] lg:w-[255px] lg:h-[350px] hd:w-[355px] hd:h-[487px]"
         ></Image>
         <Image
@@ -53,6 +56,7 @@ export default function Certificates() {
           alt="certificate"
           width={355}
           height={487}
+          onDragStart={(e) => e.preventDefault()}
           className="absolute left-[20px] top-[80px] md:left-[180px] md:top-[150px] lg:left-[260px] lg:top-[120px] xl:top-[20px] hd:top-[-50px] hd:left-[300px] rotate-[46deg] md:w-[205px] md:h-[290px] lg:w-[255px] lg:h-[350px] hd:w-[355px] hd:h-[487px]"
         ></Image>
       </section>

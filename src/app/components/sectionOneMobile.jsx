@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import FormButton from "./ui/formButton";
 import SliderOne from "./sliderOne";
@@ -27,6 +28,7 @@ export default function SectionOneMobile({ toggleForm }) {
             height={359}
             className="absolute left-[-80px] bottom-0"
             priority
+            onDragStart={(e) => e.preventDefault()}
           ></Image>
         </div>
         <div className="pl-[190px] pr-[30px] flex flex-col relative">

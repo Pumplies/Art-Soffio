@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 export default function Footer() {
@@ -28,6 +29,7 @@ export default function Footer() {
             alt="Logo"
             width={340}
             height={195}
+            onDragStart={(e) => e.preventDefault()}
             className="w-[130px] h-[100px] md:w-[210px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
           ></Image>
         </section>
@@ -85,9 +87,9 @@ export default function Footer() {
               ></Image>
               <a
                 href="mailto:artsoffio@hotmail.com?subject=Запрос%20на%20сотрудничество&body=Здравствуйте,%20хочу%20обсудить%20сотрудничество."
-                className="underline font-[600] text-[22px]"
+                className="underline font-[400] md:font-[600] text-[22px]"
               >
-                artsoffio@hotmail.com
+                artsoffio.e-comm@mail.ru
               </a>
             </div>
             <div className="flex gap-[30px] pl-[45px] md:px-0">
@@ -97,7 +99,7 @@ export default function Footer() {
                 width={22}
                 height={22}
               ></Image>
-              <p className="font-[600] text-[22px]">+7 (747) 839 03 87</p>
+              <p className="font-[400] md:font-[600] text-[22px]">+7 (747) 839 03 87</p>
             </div>
             <hr className="visible md:hidden w-screen mt-[18px] " />
           </div>
