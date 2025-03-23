@@ -7,15 +7,7 @@ import OurProducts from "./components/ourProducts";
 import Catalog from "./components/catalog";
 import Reviews from "./components/reviews";
 import Certificates from "./components/certificates";
-
-
-
-
-
-
-
-
-
+import FixedButton from "./components/ui/fixedButton";
 
 
 export default function Home() {
@@ -27,6 +19,7 @@ export default function Home() {
       <Catalog/>
       <Reviews/>
       <Certificates/>
+      <FixedButton/>
     </div>
   );
 }

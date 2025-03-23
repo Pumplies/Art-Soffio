@@ -17,13 +17,13 @@ export default function AboutUsSection() {
         </h2>
         <p className="text-[14px] leading-[16px] md:leading-[30px] md:text-[25px] hd:text-[32px] hd:leading-[39px] text-center">
           ART SOFFIO занимается оптовыми продажами косметики,
-          <br /> созданной для тех, кто ценит надежность, сервис и красоту.{" "}
+          <br className="hidden sm:block"/> созданной для тех, кто ценит надежность, сервис и красоту.{" "}
           <br />
           <br />
-          Мы предлагаем современные решения для макияжа, сочетая <br />{" "}
+          Мы предлагаем современные решения для макияжа, сочетая <br className="hidden sm:block"/>{" "}
           трендовые оттенки, инновации, качество и цену. <br />
           <br />
-          ART SOFFIO — ваш надёжный партнёр в увеличении продаж <br /> и
+          ART SOFFIO — ваш надёжный партнёр в увеличении продаж <br className="hidden sm:block"/> и
           расширении клиентской аудитории.{" "}
         </p>
       </section>

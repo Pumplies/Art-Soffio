@@ -71,7 +71,7 @@ export default function OurProducts({ cards }) {
 
   return (
     <article id="products">
-      <h3 className="text-center md:text-start text-[38px] md:text-[65px] hd:text-[82px] font-[600]">
+      <h3 className="text-center md:text-start text-[9.1vw] md:text-[65px] hd:text-[82px] font-[600]">
         Наша <span className="text-[#597E72]">продукция</span>
       </h3>
       <section>

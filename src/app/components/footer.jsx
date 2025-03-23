@@ -87,7 +87,7 @@ export default function Footer() {
               ></Image>
               <a
                 href="mailto:artsoffio@hotmail.com?subject=Запрос%20на%20сотрудничество&body=Здравствуйте,%20хочу%20обсудить%20сотрудничество."
-                className="underline font-[400] md:font-[600] text-[22px]"
+                className="underline font-[400] md:font-[600] text-[5.3vw] sm:text-[22px]"
               >
                 artsoffio.e-comm@mail.ru
               </a>
@@ -107,7 +107,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col lg:flex-row justify-end text-[14px] md:text-[20px] md:gap-[90px] mt-[100px] text-center">
         <button>Политика конфиденциальности</button>
-        <span>© 2024 Artsoffio. Все права защищены </span>
+        <span>© 2024 Art Soffio. Все права защищены </span>
       </div>
     </article>
   );
