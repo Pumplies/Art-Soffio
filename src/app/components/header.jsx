@@ -28,13 +28,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center py-[30px] px-[40px] md:px-[138px] bg-[#F3FBFF] w-full fixed top-0 z-50">
+      <header className="flex justify-between items-center py-[20px] px-[40px] md:px-[138px] bg-[#F3FBFF] w-full fixed top-0 z-50">
         <button className={`burger-button order-0 sm:order-1 ${isNarrowScreen ? "block" : "hidden"}`} onClick={toggleBurgerMenu} aria-label="Toggle Menu">
           <span className="block w-6 h-0.5 bg-black mb-1"></span>
           <span className="block w-6 h-0.5 bg-black mb-1"></span>
           <span className="block w-6 h-0.5 bg-black"></span>
         </button>
-        <Image src="/logo.svg" alt="Art Soffio Logo" width={370} height={70}  onDragStart={(e) => e.preventDefault()} priority className="w-[188px] h-[35px] mx-auto md:w-[280px] md:h-[53px] hd:w-[370px] hd:h-[70px] md:mx-0"></Image>
+        <Image src="/logo.png" alt="Art Soffio Logo" width={370} height={70}  onDragStart={(e) => e.preventDefault()} priority className="w-[188px] h-[35px] mx-auto md:w-[280px] md:h-[53px] hd:w-[370px] hd:h-[70px] md:mx-0"></Image>
         <nav className={`hidden ${isNarrowScreen ? "hidden" : "md:flex"}`}>
           <ul className="flex md:gap-[2vw] hd:gap-[3vw] md:text-[20px] text-[25px]">
             <li className="cursor-pointer" onClick={() => scrollToSection('about')}>О нас</li>

@@ -26,12 +26,12 @@ export default function Footer() {
         </section>
         <section className="flex items-center justify-center ">
           <Image
-            src={"/logoFooter.svg"}
+            src={"/logoFooter.png"}
             alt="Logo"
             width={340}
             height={195}
             onDragStart={(e) => e.preventDefault()}
-            className="w-[130px] h-[100px] md:w-[210px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
+            className="w-[190px] h-[120px] md:w-[280px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
           ></Image>
         </section>
         <section className="mt-[28px] lg:mt-0 flex flex-col gap-[65px] items-center xl:items-start text-center xl:text-start">
@@ -79,28 +79,28 @@ export default function Footer() {
           <div className="order-1 hd:order-2 ">
             <hr className="visible md:hidden w-screen mb-[18px]" />
             <p className="font-[600] text-[24px]">КОНТАКТЫ</p>
-            <div className="flex mb-[7px] lg:mb-0 gap-[30px] mt-[15px] lg:mt-[42px] pl-[45px] md:px-0">
+            <div className="flex mb-[7px] lg:mb-0 gap-[20px] mt-[15px] lg:mt-[42px] pl-[45px] md:px-0">
               <Image
                 src={"/mail.svg"}
                 alt="mail"
-                width={22}
-                height={22}
+                width={18}
+                height={18}
               ></Image>
               <a
                 href="mailto:artsoffio@hotmail.com?subject=Запрос%20на%20сотрудничество&body=Здравствуйте,%20хочу%20обсудить%20сотрудничество."
-                className="underline font-[400] md:font-[600] text-[5.3vw] sm:text-[22px]"
+                className="underline font-[400] md:font-[600] text-[4.3vw] sm:text-[22px]"
               >
                 artsoffio.e-comm@mail.ru
               </a>
             </div>
-            <div className="flex gap-[30px] pl-[45px] md:px-0">
+            <div className="flex gap-[20px] pl-[45px] md:px-0">
               <Image
                 src={"/phoneNumber.svg"}
                 alt="mail"
-                width={22}
-                height={22}
+                width={18}
+                height={18}
               ></Image>
-              <p className="font-[400] md:font-[600] text-[22px]">+7 (747) 839 03 87</p>
+              <p className="font-[400] md:font-[600] text-[4.3vw] sm:text-[22px]">+7 (747) 839 03 87</p>
             </div>
             <hr className="visible md:hidden w-screen mt-[18px] " />
           </div>
@@ -108,7 +108,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col lg:flex-row justify-end text-[14px] md:text-[20px] md:gap-[90px] mt-[100px] text-center">
           <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</Link>   
-        <span>© 2024 Art Soffio. Все права защищены </span>
+        <span>Art Soffio ® Все права защищены </span>
       </div>
     </article>
   );
