@@ -9,9 +9,9 @@ export default function Footer() {
       className="border-t-2 px-[20px] md:px-[50px] xl:px-[100px] hd:px-[138px] pt-[40px] pb-[70px] bg-[#F3FBFF]  overflow-x-hidden"
     >
       <div className="flex flex-col lg:flex-row justify-between ">
-        <section className="items-center lg:items-start text-center lg:text-start">
+        <section className="flex flex-col gap-[20px] sm:gap-0 items-center lg:items-start text-center lg:text-start order-2 sm:order-1 mt-[10px] sm:mt-0">
           <button
-            className={`p-[1px] md:p-[2px] bg-[#B90245] rounded-full text-[18px] md:text-[22px] hd:text-[25px] font-[600] relative overflow-hidden`}
+            className={`p-[1px] md:p-[2px] bg-[#B90245] rounded-full text-[18px] md:text-[22px] hd:text-[25px] font-[600] relative overflow-hidden order-3 sm:order-1`}
           >
             <div className="bg-[#F3FBFF] w-full h-full  py-[7px] md:py-[14px] hd:py-[18px] px-[28px] md:px-[70px] hd:px-[98px] rounded-full z-30 relative">
               Получить каталог
@@ -19,22 +19,22 @@ export default function Footer() {
 
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-[#FFDAE7] to-transparent opacity-20 animate-glow-smooth z-10" />
           </button>
-          <p className="text-[16px] md:text-[25px] hd:text-[30px] font-[400] leading-[37px] mt-[14px] md:mt-[50px]">
+          <p className="text-[16px] md:text-[25px] hd:text-[30px] font-[400] leading-[37px] mt-[14px] md:mt-[50px] order-1 sm:order-2">
             ART SOFFIO легкое <br className="hidden md:block" /> дуновение
             мечты!
           </p>
         </section>
-        <section className="flex items-center justify-center ">
+        <section className="flex items-center justify-center order-1 sm:order-2">
           <Image
             src={"/logoFooter.png"}
             alt="Logo"
             width={340}
             height={195}
             onDragStart={(e) => e.preventDefault()}
-            className="w-[190px] h-[120px] md:w-[280px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
+            className="w-[210px] h-[120px] md:w-[280px] md:h-[160px] md:my-[20px] lg:my-0 hd:w-[340px] hd:h-[195px]"
           ></Image>
         </section>
-        <section className="mt-[28px] lg:mt-0 flex flex-col gap-[65px] items-center xl:items-start text-center xl:text-start">
+        <section className="mt-[28px] lg:mt-0 flex flex-col gap-[65px] items-center xl:items-start text-center xl:text-start order-3 ">
           <div className="order-2 md:order-1">
             <p className="font-[600] text-[24px] ">МЫ В СОЦСЕТЯХ</p>
             <div className="flex gap-[28px] mt-[15px] lg:mt-[42px]">
@@ -76,10 +76,11 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="order-1 hd:order-2 ">
+          <div className="order-1 hd:order-2 flex flex-col items-center">
             <hr className="visible md:hidden w-screen mb-[18px]" />
             <p className="font-[600] text-[24px]">КОНТАКТЫ</p>
-            <div className="flex mb-[7px] lg:mb-0 gap-[20px] mt-[15px] lg:mt-[42px] pl-[45px] md:px-0">
+            <div className="translate-x-[-30px] flex flex-col mt-[20px] sm:mt-0">
+              <div className="flex mb-[7px] lg:mb-0 gap-[20px] mt-[15px] lg:mt-[42px] pl-[45px] md:px-0 order-2 sm:order-1">
               <Image
                 src={"/mail.svg"}
                 alt="mail"
@@ -93,7 +94,7 @@ export default function Footer() {
                 artsoffio.e-comm@mail.ru
               </a>
             </div>
-            <div className="flex gap-[20px] pl-[45px] md:px-0">
+            <div className="flex gap-[20px] pl-[45px] md:px-0 order-1 sm:order-2">
               <Image
                 src={"/phoneNumber.svg"}
                 alt="mail"
@@ -102,6 +103,8 @@ export default function Footer() {
               ></Image>
               <p className="font-[400] md:font-[600] text-[4.3vw] sm:text-[22px]">+7 (747) 839 03 87</p>
             </div>
+            </div>
+            
             <hr className="visible md:hidden w-screen mt-[18px] " />
           </div>
         </section>

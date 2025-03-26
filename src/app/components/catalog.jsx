@@ -16,7 +16,7 @@ export default function Catalog() {
       <section className="w-full pt-[40px] hd:pt-0 pl-[31px] md:px-[70px] xl:px-[100px]  hd:px-[138px] flex gap-[10px] md:gap-[50px] xl:gap-[180px] hd:gap-[205px]">
         <div className="relative w-[133px] md:w-[300px] xl:w-[380px] hd:w-[559px] md:top-[10px] xl:top-[-120px] hd:top-[-111px]">
           <Image
-            src={"/fullPhone.svg"}
+            src={"/fullPhone.png"}
             alt="phone"
             width={534}
             height={720}

@@ -46,7 +46,7 @@ html, body {
     transform: translateX(10%); /* Начинаем с начальной позиции */
   }
   100% {
-    transform: translateX(-200%); /* Перемещаем весь текст на 100% влево */
+    transform: translateX(-320%); /* Перемещаем весь текст на 100% влево */
   }
 }
 
