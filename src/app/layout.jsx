@@ -1,7 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
+
 import ClientWrapper from "./components/clientWrapper";
 import { metadata } from "./metadata";
 
@@ -24,9 +23,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`antialiased ${montserrat.className}`}>
         <ClientWrapper>
-          <Header />
           {children}
-          <Footer />
         </ClientWrapper>
       </body>
     </html>
