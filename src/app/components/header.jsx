@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center py-[20px] px-[40px] md:px-[138px] bg-[#F3FBFF] w-full fixed top-0 z-50">
+      <header className="flex justify-between items-center py-[15px] px-[40px] md:px-[138px] bg-[#F3FBFF] w-full fixed top-0 z-50">
         <button className={`burger-button order-0 sm:order-1 ${isNarrowScreen ? "block" : "hidden"}`} onClick={toggleBurgerMenu} aria-label="Toggle Menu">
           <span className="block w-6 h-0.5 bg-black mb-1"></span>
           <span className="block w-6 h-0.5 bg-black mb-1"></span>

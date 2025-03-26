@@ -12,7 +12,7 @@ export default function SliderCards() {
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
         style={{ willChange: "transform", transform: "translateZ(0)" }}
       >
-        <Cards image={"/coin.svg"} text={"Мега продажи вместе с нами!"} />
+        <Cards image={"/coin.png"} text={"Мега продажи вместе с нами!"} />
       </motion.div>
 
       <motion.div
@@ -26,7 +26,7 @@ export default function SliderCards() {
         }}
         style={{ willChange: "transform", transform: "translateZ(0)" }}
       >
-        <Cards image={"/fire.svg"} text={`Горячие акции на топ продуктов!`} />
+        <Cards image={"/fire.png"} text={`Горячие акции на топ продуктов!`} />
       </motion.div>
 
       <motion.div
@@ -40,7 +40,7 @@ export default function SliderCards() {
         }}
         style={{ willChange: "transform", transform: "translateZ(0)" }}
       >
-        <Cards image={"/new.svg"} text={"Новинки каждый месяц!"} />
+        <Cards image={"/new.png"} text={"Новинки каждый месяц!"} />
       </motion.div>
     </div>
   );

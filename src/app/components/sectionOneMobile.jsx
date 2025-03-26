@@ -6,7 +6,7 @@ import SliderOne from "./sliderOne";
 export default function SectionOneMobile({ toggleForm }) {
   return (
     <article className="flex flex-col">
-      <section className="px-[30px] pt-[72px] md:pt-[143px] bg-[#F3FBFF] flex flex-col gap-[16px]">
+      <section className="px-[30px] pt-[62px] md:pt-[143px] bg-[#F3FBFF] flex flex-col gap-[16px]">
         <h1 className="text-[38px] font-[600] leading-[40px]">
           Выгодные условия для <span className="text-[#F55E79]">оптовых</span>{" "}
           клиентов
