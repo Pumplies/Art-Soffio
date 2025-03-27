@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="viewport" content={metadata.viewport} />
-        <link rel="icon" href={metadata.icons.icon} />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`antialiased ${montserrat.className}`}>
         <ClientWrapper>
