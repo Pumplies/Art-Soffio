@@ -117,7 +117,7 @@ export default function Footer() {
           </div>
         </section>
       </div>
-      <div className="flex flex-col lg:flex-row justify-end text-[14px] md:text-[20px] md:gap-[90px] mt-[100px] text-center">
+      <div className="flex flex-col lg:flex-row justify-end text-[14px] md:text-[20px] xl:gap-[90px] mt-[100px] text-center">
           <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</Link>   
         <span>Art Soffio ® Все права защищены </span>
       </div>

@@ -31,17 +31,17 @@ export default function SectionOneMobile({ toggleForm }) {
             onDragStart={(e) => e.preventDefault()}
           ></Image>
         </div>
-        <div className="pl-[190px] pr-[30px] flex flex-col relative">
-          <div className=" flex flex-col gap-[10px]">
-            <h3 className="text-[20px] leading-[20px] font-[700] text-[#060606]">
+        <div className="pl-[190px] pr-[30px] flex flex-col md:flex-row relative md:h-full">
+          <div className=" flex flex-col gap-[10px] md:max-w-[40%]">
+            <h3 className="text-[20px] md:text-[27px] leading-[20px]   font-[700] text-[#060606] md:text-nowrap">
               {'"Станьте нашим партнером!"'}
             </h3>
-            <p className="text-[3.4vw] leading-[14px] italic text-[#060606]">
+            <p className="text-[3.4vw] md:text-[22px] w-full leading-[14px] md:leading-[21px] italic text-[#060606]">
               Гарантируем качество и лучшие цены. Продукция напрямую от
               производителя.
             </p>
           </div>
-          <div className="flex justify-center mt-[22px]">
+          <div className="flex justify-center mt-[22px] md:items-center">
             <FormButton text={"Оформить заявку"} onClick={toggleForm} aria-label="Оформить заявку" />
           </div>
         </div>

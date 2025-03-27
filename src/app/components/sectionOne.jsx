@@ -5,7 +5,7 @@ import SliderOne from "./sliderOne";
 
 export default function SectionOne({ toggleForm }) {
   return (
-    <article className="pt-[207px] flex bg-[#F3FBFF]">
+    <article className="pt-[100px] flex bg-[#F3FBFF]">
       <section className="pl-[7%] w-2/3 flex flex-col bg-[#F3FBFF] hd:h-[1100px] z-10 ">
         <h1 className="font-[600] sm:text-[40px] md:text-[50px] hd:text-[82px] sm:leading-[40px] md:leading-[50px] hd:leading-[85px]">
           <span className="whitespace-normal hd:whitespace-nowrap">Выгодные условия</span> <br className="hidden hd:block"/> для{" "}
@@ -18,7 +18,7 @@ export default function SectionOne({ toggleForm }) {
         <div className="flex flex-col">
           <div>
             <FormButton
-              position="absolute md:left-[150px] xl:left-[260px] md:top-[40px] hd:left-[309px]  hd:top-[60px]"
+              position="absolute md:left-[150px] xl:left-[260px] md:top-[80px] hd:left-[309px]  hd:top-[130px]"
               text={"Оформить заявку"}
               onClick={toggleForm}
               aria-label="Оформить заявку"
@@ -32,7 +32,7 @@ export default function SectionOne({ toggleForm }) {
               height={584}
               priority
               onDragStart={(e) => e.preventDefault()}
-              className="absolute z-10 left-[-30px] hd:left-0 md:top-[480px] xl:top-[400px] hd:top-[655px] md:w-[384px] md:h-[364px] xl:w-[504px] xl:h-[484px] hd:w-[604px] hd:h-[584px]"
+              className="absolute z-10 left-[-30px] hd:left-0 md:top-[377px] xl:top-[300px] hd:top-[555px] md:w-[384px] md:h-[364px] xl:w-[504px] xl:h-[484px] hd:w-[604px] hd:h-[584px]"
             ></Image>
 
             <Image
@@ -42,9 +42,9 @@ export default function SectionOne({ toggleForm }) {
               height={326}
               priority
               onDragStart={(e) => e.preventDefault()}
-              className="absolute md:left-[-250px] xl:left-[-110px] hd:left-[-130px] md:top-[604px] hd:top-[913px] md:w-[900px] md:h-[240px] hd:w-[1221px] hd:h-[326px]"
+              className="absolute md:left-[-250px] xl:left-[-110px] hd:left-[-130px] md:top-[498px] xl:top-[545px] hd:top-[813px] md:w-[900px] md:h-[240px] hd:w-[1221px] hd:h-[326px]"
             />
-            <div className="absolute md:left-[260px] md:top-[640px] xl:left-[350px] xl:top-[680px] hd:left-[480px] hd:top-[974px] md:max-w-[280px] xl:max-w-[350px] hd:max-w-[450px]">
+            <div className="absolute md:left-[260px] md:top-[533px] xl:left-[350px] xl:top-[580px] hd:left-[480px] hd:top-[874px] md:max-w-[280px] xl:max-w-[350px] hd:max-w-[450px]">
               <h3 className="text-[25px] hd:text-wrap hd:text-[36px] leading-[30px] hd:leading-[42px] font-[700]">
                 {'"Станьте нашим партнером!"'}
               </h3>

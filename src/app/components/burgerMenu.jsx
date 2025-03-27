@@ -85,7 +85,7 @@ export default function BurgerMenu() {
         <ul className="flex flex-col text-lg gap-[1.7vh]">
           <li>
             <a
-              href="https://wa.me/+77478390387?text=Здравствуйте,%20я%20хочу%20узнать%20подробнее%20о%20ваших%20услугах"
+              href="https://wa.me/+77478390387?text=Здравствуйте!%20Интересует%20ваше%20предложение. %0AХочу%20получить%20консультацию%20по%20товару%20и%20оформить%20заказ."
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"

@@ -16,7 +16,7 @@ export default function SliderCards() {
       </motion.div>
 
       <motion.div
-        className="absolute top-[37%] xl:left-[50%] transform xl:-translate-x-1/2 -translate-y-1/2"
+        className="absolute top-[37%] 2xl:left-[50%] transform xl:-translate-x-1/2 -translate-y-1/2"
         animate={{ y: [0, 10, 0] }}
         transition={{
           duration: 3.5,
@@ -30,7 +30,7 @@ export default function SliderCards() {
       </motion.div>
 
       <motion.div
-        className="absolute bottom-0 xl:left-[100%]"
+        className="absolute bottom-0 2xl:left-[100%]"
         animate={{ y: [0, -8, 0] }}
         transition={{
           duration: 3.2,
