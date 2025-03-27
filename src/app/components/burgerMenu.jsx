@@ -14,8 +14,8 @@ export default function BurgerMenu() {
   return (
     <article className="bg-[#F8B5C3] h-screen flex flex-col p-6 fixed top-0 left-0 w-full z-50">
       <header className="flex items-center justify-between mb-[67px]">
-        <Image src="/logoBurger.svg" width={45} height={45} alt="Logo Burger" />
-        <Image src="/logoWhite.svg" width={188} height={35} alt="Logo White" />
+        <Image src="/logoBurger.png" width={45} height={45} alt="Logo Burger" />
+        <Image src="/logoWhite.png" width={188} height={35} alt="Logo White" />
         <button
           className="p-2 bg-[#FFFFFF4D] rounded-full"
           onClick={toggleBurgerMenu}
